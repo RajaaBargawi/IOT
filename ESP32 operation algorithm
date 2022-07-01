@@ -1,0 +1,38 @@
+ESP32 operation algorithm
+
+1- Go to the arduino website and download the arduino IDE 
+
+2- To set up an arduino program to support the ESP32 board
+Copy the Stable release link from the following link
+https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+Then follow the steps on the page to download the ESP32 library to your
+Arduino
+
+3-optional step To download the examples of ESP32
+To facilitate the work and to learn from some ready-made code for ESP32
+Find arduino-SPE32 in githup on the right of the page click on the fellowing
+link
+https://github.com/espressif/arduino-esp32/releases/tag/2.0.3
+Then download the zip file and extract the content to your device
+
+To make sure you download the examples on arduino
+* From the arduino program, choose Tools, then bord “Arduino Uno”, then choose ESP32 Arduino, then Esp32 Dev Module
+* Then go to the main menu choose examples file then you will find the examples downloaded in arduino content
+
+4- Open Arduino from the main menu Examples then 01.Basics then Blink
+
+5- To test if the ESP32 is working properly or not
+* If the device is connected to ESP32
+  A- Open Compmgmt.msc, then Device Manager, then Ports (COM & LPL) know the name of only the part (COM10)
+  B- Then in the Arduino program, from Tools, choose Doit ESP32 DEVKITV1 board and choose Port COM 10
+  And finally, run the code to make ESP32 work  
+* if the device is not connected
+  Copy the Blink code and paste it into the following emulator
+  https://wokwi.com/projects/335900210763924051
+
+6- Make sure the blue light appears on the ESP32
+
+ 
+
+When a blue light appears on the 
+ESP32, the operation has been successful
