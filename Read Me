@@ -1,0 +1,8 @@
+* Speech to text description:
+I created an html page that contains two buttons, the first with Arabic written on it,to convert Arabic speech into Arabic text and written on it 
+in English to convert English speech into English text.  The size of the texts on the page and the color of the button on the page. When you press 
+one of the buttons,the listining text will appear and the speech will begin to be heard. When the stoped text appears, the text will appear as written after text:
+
+* Description of ESP32 operation:
+After downloading the ESP32 library on the Arduino, and if the ESP32 piece is wired with the device, we run the blink code so that the blue light appears
+in a frequency on the device.  Blue frequency on the device emulator
